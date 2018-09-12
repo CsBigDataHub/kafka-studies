@@ -1,4 +1,4 @@
-package com.github.simplesteph.kafka.apps.v1;
+package com.github.simplesteph.kafka.apps;
 
 import com.example.Customer;
 import io.confluent.kafka.serializers.KafkaAvroDeserializer;
@@ -41,6 +41,7 @@ public class KafkaAvroJavaConsumerV1Demo {
                 System.out.println(customer);
             }
 
+            //to commit the offset - because i commited if i runned again i will don't see the old messages
             kafkaConsumer.commitSync();
         }
     }

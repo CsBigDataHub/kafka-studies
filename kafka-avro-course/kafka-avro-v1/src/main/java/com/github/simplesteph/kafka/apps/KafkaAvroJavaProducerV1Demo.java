@@ -1,4 +1,4 @@
-package com.github.simplesteph.kafka.apps.v1;
+package com.github.simplesteph.kafka.apps;
 
 import com.example.Customer;
 import io.confluent.kafka.serializers.KafkaAvroSerializer;
