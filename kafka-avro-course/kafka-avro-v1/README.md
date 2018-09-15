@@ -1,4 +1,4 @@
-# Kafka Avro Producer in Java
+# Kafka Avro Producer in Java V1
 
 ### Generate Avro from customer-v1.avsc
 
