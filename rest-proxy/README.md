@@ -23,13 +23,11 @@ kafka-topics --create --zookeeper localhost:2181 --topic rest-avro --replication
 ### Get topic config
 ![](image.png)
 
-### Send binary
+### Producer Binary
+- Send binary
 ![](image2.png)
 
-### Data in topic binary
-
-- http://localhost:3030/kafka-topics-ui/#/cluster/fast-data-dev/topic/n/rest-binary/
-
+- Data in topic binary http://localhost:3030/kafka-topics-ui/#/cluster/fast-data-dev/topic/n/rest-binary/
 ![](image3.png)
 
 ### Consumer binary
@@ -37,3 +35,11 @@ kafka-topics --create --zookeeper localhost:2181 --topic rest-avro --replication
 ![](image4.png)
 
 - Subscribe
+![](image5.png)
+
+- Consume
+![](image6.png)
+
+
+- Consume offset
+![](image7.png)
